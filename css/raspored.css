@@ -1,0 +1,206 @@
+.tijelo {
+  background: white;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.zaglavlje {
+ width: 100%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  text-align: left;
+  color: darkblue;
+  font-size: 20px;
+}
+.listVertical {
+  list-style-type: circle;
+} 
+.meni{ 
+  margin-top:0px;
+  margin-left:auto;
+  margin-right:auto;
+   
+}
+
+.meni li a{
+display:block;
+width: 100px;
+height: 40px;
+    padding: 1px;
+    text-decoration: none;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    font-family: Gill Sans, sans-serif;
+    font-size: 18px;
+    color:darkblue;
+}
+.meni li a:hover{
+    background-color:lightgray;
+}
+.tabelaRasporeda{
+    margin:0 auto;
+    margin-top: 200px;
+    margin-bottom:200px;
+    grid-area: tabelaRasporeda;
+    table-layout: fixed;
+    width: 500px;
+    height: 300px;
+    border-collapse: collapse;
+}
+.tabelaRasporeda tr.prviRed th {
+    font-family: Courier, monospace;
+    font-size: 10px;
+    border-bottom: 1px solid black;
+    border-left: none;
+}
+.tabelaRasporeda tr.prviRed th.nemaBordera {
+    border-bottom: none;
+text-align: right;
+}
+.tabelaRasporeda tr.kolone td.daniSedmice { 
+    text-align: right;
+    background: white;
+    font-family: Courier, monospace;
+    font-size: 14px; 
+    width:30px;
+    border-top:none;
+    border-left:none;
+    border-bottom:none;
+    border-right:1px solid black;
+}
+.tabelaRasporeda tr.kolone td{
+   background-color: lightgray;
+   width: auto;
+   height: 40px; 
+   border-bottom: 1px solid black; 
+}
+.tabelaRasporeda tr.kolone td.isprekidana,td.predavanjeIsprekidana,td.vjezbeIsprekidana,td.tutorijalIsprekidana {
+   border-right: 1px dashed;
+}
+.tabelaRasporeda tr.kolone td.puna, td.vjezbePuna, td.tutorijalPuna, td.predavanjePuna {
+   border-right: 1px solid black;
+}
+.tabelaRasporeda tr.kolone td.predavanjePuna, td.predavanjeIsprekidana { 
+   background-color: lavender;
+   font-family: Courier, monospace;
+   font-size: 10px;
+   text-align: center;
+}
+.tabelaRasporeda tr.kolone td.vjezbePuna, td.vjezbeIsprekidana {
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+}
+.tabelaRasporeda tr.kolone  td.predavanjeIsprekidana { 
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+}
+.tabelaRasporeda tr.kolone  td.vjezbeIsprekidana {
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+}
+.tabelaRasporeda tr.kolone td.tutorijalPuna, td.tutorijalIsprekidana {
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+}
+@media (max-width:600px) {
+.tijelo {
+  background: white;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.tabelaRasporeda{
+    margin:0 auto;
+    margin-top: 150px;
+    margin-bottom:150px;
+   
+}
+.tabelaRasporeda tr.prviRed th {
+  display:none;
+}
+.tabelaRasporeda tr.prviRed td {
+  display:none;
+}
+.tabelaRasporeda tr.kolone td.daniSedmice { 
+  text-align: center;
+  background: white;
+  font-family: Courier, monospace;
+  font-size: 14px; 
+  width:30px;
+  border:none;
+margin-right: 200px;
+    margin-left:200px;
+margin-top:5px;
+}
+.tabelaRasporeda tr.kolone td{
+  display: block;
+  background-color:white;
+  width: 100px;
+  height: 40px;  
+  border:none;
+  margin-right: 200px;
+  margin-left:200px;
+}
+.tabelaRasporeda tr.kolone td.isprekidana,td.predavanjeIsprekidana,td.vjezbeIsprekidana,td.tutorijalIsprekidana {
+  border:none;
+  display:none;
+}
+.tabelaRasporeda tr.kolone td.puna, td.vjezbePuna, td.tutorijalPuna, td.predavanjePuna {
+  border:none;
+  display:none;
+}
+.tabelaRasporeda tr.kolone td.predavanjePuna, td.predavanjeIsprekidana { 
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+  border:1px solid black;
+}
+.tabelaRasporeda tr.kolone td.vjezbePuna, td.vjezbeIsprekidana {
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+  border:1px solid black;
+}
+.tabelaRasporeda tr.kolone  td.predavanjeIsprekidana { 
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+border:1px solid black;
+
+}
+.tabelaRasporeda tr.kolone  td.vjezbeIsprekidana {
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+  border-left:1px solid black;
+  border-right:1px solid black;
+}
+.tabelaRasporeda tr.kolone td.tutorijalPuna {
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+  border-left:1px solid black;
+  border-right:1px solid black;
+}
+.tabelaRasporeda tr.kolone td.tutorijalIsprekidana {
+  background-color: lavender;
+  font-family: Courier, monospace;
+  font-size: 10px;
+  text-align: center;
+  border:1px solid black;
+}
+}
