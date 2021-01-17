@@ -1,0 +1,179 @@
+.zaglavlje {
+ width: 100%;
+ opacity: 0.5;
+ position: absolute;
+ top: 0;
+ text-align: left;
+ color: darkblue;
+ font-size: 20px;
+}
+.listVertical {
+ list-style-type: circle;
+} 
+.tijelo {
+  background: linear-gradient(to bottom, #9999ff 0%, #ccccff 90%);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.meni{ 
+  margin-top:0px;
+  margin-left:auto;
+  margin-right:auto; 
+}
+
+.meni li a{
+display:block;
+width: 100px;
+height: 40px;
+    padding: 1px;
+    text-decoration: none;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    font-family: Gill Sans, sans-serif;
+    font-size: 18px;
+    color:darkblue;
+}
+.meni li a:hover{
+    background-color:lightgray;
+}
+.okvirLijevi {
+ display: inline-block;
+ border-radius: 25px;
+ border: 3px solid steelblue;
+ height:150px;
+ width:150px;
+ border-left:3px solid steelblue;
+ border-bottom:3px solid steelblue;
+ border-right:3px solid steelblue;
+ font-family: Gill Sans, sans-serif;
+ font-size: 12px;
+ color:steelblue;
+ text-align: center
+}
+.okvirDesni {
+ display: inline-block;
+ border-radius: 25px;
+ border: 3px solid steelblue;
+
+ height:150px;
+ width:150px;
+ border-left:3px solid steelblue;
+ border-bottom:3px solid steelblue;
+ border-right:3px solid steelblue;
+ font-family: Gill Sans, sans-serif;
+ font-size: 12px;
+ color:steelblue;
+ text-align: center;
+}
+.okvirSrednji {
+ display: inline-block;
+ border-radius: 15px;
+ border: 3px solid steelblue;
+ height:200px;
+ width:200px;
+ border-left:3px solid steelblue;
+ border-bottom:3px solid steelblue;
+ border-right:3px solid steelblue;
+ font-family: Gill Sans, sans-serif;
+ font-size: 12px;
+ color:steelblue;
+ text-align: center
+}
+.okvir div.aktivnost {
+ font-family: Gill Sans, sans-serif;
+ font-size: 15px;
+ color:steelblue;
+ text-align:center;
+}
+.okvirSrednji div.aktivnost {
+ font-family: Gill Sans, sans-serif;
+ font-size: 15px;
+ color:steelblue;
+ text-align:center;
+}
+.okvir div.Vrijeme {
+ font-family: Gill Sans, sans-serif;
+ font-size: 10px;
+ color:steelblue;
+ text-align:center;
+}
+.okvirSrednji div.Vrijeme { 
+ font-family: Gill Sans, sans-serif;
+ font-size: 10px;
+ color:steelblue;
+ text-align:center;
+}
+@media (max-width:600px) {
+.tijelo {
+  height: 110vh;
+}
+.okvirLijevi {
+ display: none;
+ border-radius: 25px;
+ border: 3px solid steelblue;
+ height:150px;
+ width:150px;
+ border-left:3px solid steelblue;
+ border-bottom:3px solid steelblue;
+ border-right:3px solid steelblue;
+ font-family: Gill Sans, sans-serif;
+ font-size: 12px;
+ color:steelblue;
+ text-align: center;
+}
+
+.okvirDesni {
+ display: block;
+ border-radius: 25px;
+ border: 3px solid steelblue;
+ height:150px;
+ width:150px;
+ border-left:3px solid steelblue;
+ border-bottom:3px solid steelblue;
+ border-right:3px solid steelblue;
+ font-family: Gill Sans, sans-serif;
+ font-size: 12px;
+ color:steelblue;
+ text-align: center;
+}
+.okvirSrednji {
+ display:inline-block;
+ border-radius: 15px;
+ border: 3px solid steelblue;
+ height:200px;
+ width:200px;
+ border-left:3px solid steelblue;
+ border-bottom:3px solid steelblue;
+ border-right:3px solid steelblue;
+ font-family: Gill Sans, sans-serif;
+ font-size: 12px;
+ color:steelblue;
+ text-align: center
+}
+.okvir div.aktivnost {
+ font-family: Gill Sans, sans-serif;
+ font-size: 15px;
+ color:steelblue;
+ text-align:center;
+}
+.okvirSrednji div.aktivnost {
+
+ font-family: Gill Sans, sans-serif;
+ font-size: 15px;
+ color:steelblue;
+ text-align:center;
+}
+.okvir div.Vrijeme {
+ font-family: Gill Sans, sans-serif;
+ font-size: 10px;
+ color:steelblue;
+ text-align:center;
+}
+.okvirSrednji div.Vrijeme { 
+ font-family: Gill Sans, sans-serif;
+ font-size: 10px;
+ color:steelblue;
+ text-align:center;
+}
+}

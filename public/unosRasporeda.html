@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <title>Unos rasporeda</title>
+ 
+    <script src="ajax.js"></script>
+</head>
+<body>
+<div id="tab" class="tab">
+  <script src="ajax.js"></script>
+</div>
+</div>
+<p>PREDMETI</p>
+<div id="sadrzaj">
+</div>
+<p>AKTIVNOSTI</p>
+<div id="sadrzaj1">
+</div>
+<div id="divID">
+  <table class="center">
+    <tr>
+    <td>
+    <label>Naziv predmeta:</label>
+    </td>
+    <td>
+    <input id="naziv" type="text" name="naziv"> <br>
+    </td>
+    </tr>
+    <tr>
+      <td>
+      <label>Grupa:</label>
+      </td>
+      <td>
+      <input id="grupa" type="text" name="grupa"> <br>
+      </td>
+      </tr>
+    <tr class="razmak">
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+      <td>
+      <label>Tip aktivnosti:</label>
+      </td>
+      <td>
+      <input id="tip" type="text" name="tip"> <br>
+      </td>
+      </tr>
+    <tr class="razmak">
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>
+    <label>Vrijeme početka:</label>
+    </td>
+    <td>
+    <input id='pocetak' type="number" placeholder="8" step="0.5" min="8.0" max="20.0" name="pocetak"> <br>
+    </td>
+    </tr>
+    <tr class="razmak">
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>
+    <label>Vrijeme kraja:</label>
+    </td>
+    <td>
+    <input id='kraj' type="number" placeholder="8" step="0.5" min="8.0" max="20.0" name="kraj"> <br>
+    </td>
+    </tr>
+    <tr class="razmak">
+    <td></td>
+    <td></td>
+    </tr>
+    <tr>
+      <td>
+      <label>Dan:</label>
+      </td>
+      <td>
+      <input id="dan" type="text" name="dan"> <br>
+      </td>
+      </tr>
+  </tr>
+  <tr class="razmak">
+  <td></td>
+  <td></td>
+  </tr>
+</tr>
+<tr class="razmak">
+<td></td>
+<td></td>
+</tr>
+    </table>
+</div>
+<div align="center">
+  <button onclick="FunkcijaGlavna()">Dodaj aktivnost</button>
+</div>
+<div align="center" id="neki"></div>
+
+</body>
+</html>

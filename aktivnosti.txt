@@ -1,0 +1,3 @@
+RMA,tutorijal,10,12,ponedjeljak
+Web tehnologije,predavanje,10,11,Ponedjeljak
+Web tehnologije,vježbe,9,10,Ponedjeljak
